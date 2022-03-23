@@ -54,3 +54,22 @@ const questions = [
         },
 
   ];
+
+  function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, err => {
+        if (err) {
+            return console.log(err);
+        }
+        console.log("Success!")
+    });
+};
+
+function init() {
+    inquirer.prompt(questions)
+    .then(function (userInput) {
+        console.log(userInput)
+        writeToFile("README.md", generateMarkdown(userInput))
+    });
+};
+
+init();
