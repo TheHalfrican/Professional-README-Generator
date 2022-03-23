@@ -1,7 +1,7 @@
 // Required Packages
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require('./utils/generateMarkdown.js');
+const generateMarkdown = require('./generateMarkdown.js');
 console.log("Welcome to the Professional README Generator")
 console.log("Answer the following qeustions to generate a fantastic README for your precious project!")
 
