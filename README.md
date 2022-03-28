@@ -26,6 +26,6 @@ To use this application simply go to the app within your terminal and run it usi
 - Wallkthrough Video: [Generator Video Guide](https://drive.google.com/file/d/1B-olfZroc48vuQklD4lIXzNNmABDj5rk/view?usp=sharing)
 
 ## GitHub
-- Github Repository: [Team Profile Generator](https://github.com/TheHalfrican/Professional-README-Generator)
+- Github Repository: [Professional README Generator](https://github.com/TheHalfrican/Professional-README-Generator)
 ## Email
 - Contact at: [noahmattocks@gmail.com](mailto:noahmattocks@gmail.com)
