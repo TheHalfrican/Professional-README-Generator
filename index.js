@@ -5,6 +5,7 @@ const generateMarkdown = require('./generateMarkdown.js');
 console.log("Welcome to the Professional README Generator")
 console.log("Answer the following qeustions to generate a fantastic README for your precious project!")
 
+
 const questions = [
     {
       type: 'input',
@@ -40,7 +41,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Choose a license',
-        choices: ['email', 'phone', 'telekinesis'],
+        choices: ['MIT', 'GNU_GPLv3', 'Apache'],
       },
       {
       type: 'input',
